@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#009688"
+    android:padding="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/kodeBarang"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/input_kode_barang" />
+
+    <EditText
+        android:id="@+id/jumlahBarang"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/jumlah"
+        android:inputType="number" />
+
+
+    <Button
+        android:id="@+id/pesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="pesan"
+        android:text="@string/pesan" />
+
+    <TextView
+        android:id="@+id/namaBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:fontFamily="monospace"
+        android:text="@string/nama_barang"
+        android:textSize="15.5sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hargaBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="monospace"
+        android:text="@string/harga_barang"
+        android:textSize="15.5sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/totalHarga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="monospace"
+        android:text="@string/total_harga"
+        android:textSize="15.5sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/discountBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="monospace"
+        android:text="@string/discount"
+        android:textSize="15.5sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/jumlahBayar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="monospace"
+        android:text="@string/jumlah_bayar"
+        android:textSize="15.5sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

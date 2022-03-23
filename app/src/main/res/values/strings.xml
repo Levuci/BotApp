@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BotApp</string>
+    <string name="welcome">Selamat Datang di BotApp</string>
+    <string name="todo">TODO</string>
+    <string name="silahkan">Silakan Login</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Login">Login</string>
+    <string name="judul">Menghitung Volume Balok</string>
+    <string name="panjang">Panjang</string>
+    <string name="lebar">Lebar</string>
+    <string name="tinggi">Tinggi</string>
+    <string name="hitung">Hitung</string>
+    <string name="input_kode_barang">Input Kode barang</string>
+    <string name="jumlah">Jumlah</string>
+    <string name="pesan">Pesan</string>
+    <string name="nama_barang">Nama Barang :</string>
+    <string name="harga_barang">Harga Barang :</string>
+    <string name="total_harga">Total Harga :</string>
+    <string name="discount">Discount :</string>
+    <string name="jumlah_bayar">Jumlah Bayar :</string>
+</resources>
